@@ -1,0 +1,23 @@
+html, body{
+    margin: 0 0;
+    padding: 0 0;
+    background-image: url('Otherdata/LUhwmg.webp');
+}
+
+@keyframes pointdown {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.finger{
+    animation: pointdown 1s infinite;
+}
